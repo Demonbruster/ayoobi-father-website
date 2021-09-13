@@ -81,13 +81,13 @@ Run the following command on your local environment:
 ```
 git clone --depth=1 https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template.git my-project-name
 cd my-project-name
-npm install
+yarn
 ```
 
 Then, you can run locally in development mode with live reload:
 
 ```
-npm run dev
+yarn dev
 ```
 
 Open http://localhost:4000 with your favorite browser to see your project. For your information, Next JS need to take some time to compile the project for your first time.
@@ -140,8 +140,8 @@ Here is the layer:
 You can see the results locally in production mode with:
 
 ```
-$ npm run build
-$ npm run start
+$ yarn build
+$ yarn start
 ```
 
 The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
@@ -149,7 +149,7 @@ The generated HTML and CSS files are minified (built-in feature from Next js). I
 You can create an optimized production build with:
 
 ```
-npm run build-prod
+yarn build-prod
 ```
 
 Now, your theme is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
