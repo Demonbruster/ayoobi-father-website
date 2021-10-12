@@ -36,7 +36,7 @@ const Hero = () => (
         button={
           <Link href="">
             <a>
-              <Button xl>Download Your Free Theme</Button>
+              <Button xl>Contact Us</Button>
             </a>
           </Link>
         }
